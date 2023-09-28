@@ -6,7 +6,7 @@ Sep 26
 5. plot_reflectivity, etc.
 
 Sep 28
-1. make the ob.radar file, coding is almost done, need do the bacth operation;
+1. make the ob.radar file, coding is done, bacth operation done, needed to be verified;
 2. get the quality control instructions, need to test;
 
 Hodiday Lists
