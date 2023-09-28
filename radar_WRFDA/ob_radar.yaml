@@ -1,0 +1,7 @@
+resolution :  0.05 # km
+extend_ll  : [15, 30, 105, 125] 
+station    : ['9200', '9755', '9662', '9762', '9660', '9758', '9759']
+time_window: 6
+time_begin : 202309020000
+time_end   : 202309020300
+time_intval: 60
