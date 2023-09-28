@@ -1,1 +1,2 @@
-code for WRFDA of radar
+make obs.radar for WRFDA
+edit the obs.yaml, and then run "python make_ob_radar.py".
