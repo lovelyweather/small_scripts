@@ -21,7 +21,8 @@ Hodiday Lists
 9. Finish reading 钢铁是怎样炼成的。
 
 Sep 30
-1. make the ob.radar file, with the non-precipitation checking and velocity dealias;
+1. make the ob.radar file, with the non-precipitation checking and velocity dealias (half done);
+2. BG code review as below.
 
 ## note for the BG code review:
 1. Line 308: how does kds define?是并行网格中的起始点嘛？
@@ -37,6 +38,4 @@ Sep 30
 11. h按照500米一层我感觉可能有问题。
 12. L603函数名不能理解。
 13. L620就这个大于5度graupel不存在，那对于hail如果降到地面怎么办。
-14. L682是我们加的嘛？那注册表里加了嘛？要说明一下单位呢？
-15. 
-16.  
+14. L682是我们加的嘛？那注册表里加了嘛？要说明一下单位呢？ 
