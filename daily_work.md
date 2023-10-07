@@ -38,4 +38,18 @@ Sep 30
 11. h按照500米一层我感觉可能有问题。
 12. L603函数名不能理解。
 13. L620就这个大于5度graupel不存在，那对于hail如果降到地面怎么办。
-14. L682是我们加的嘛？那注册表里加了嘛？要说明一下单位呢？ 
+14. L682是我们加的嘛？那注册表里加了嘛？要说明一下单位呢？
+
+Oct 6
+1. BG的方案已提交；
+
+Oct. 7
+1. make the obs. especially finish the QC.
+
+(a)"best dealiasing method' and 'missing fourdd function':
+    https://groups.google.com/g/pyart-users/c/o8oAHtEjdbE
+(b) Dealias doppler velocities using the Region Based Algorithm (easiest)
+    https://arm-doe.github.io/pyart/examples/correct/plot_dealias.html#sphx-glr-examples-correct-plot-dealias-py
+(c) Dealiased, Cleaned Velocity Field (add the velocity texture, more reasonable)
+    https://github.com/openradar/ams-open-radar-2023/blob/main/notebooks/pyart/pyart-corrections.ipynb
+2. analyze the experiments.
