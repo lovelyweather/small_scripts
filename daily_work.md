@@ -13,12 +13,12 @@ Hodiday Lists
 - [ ] shopping: glasses; dresses; 
 - [ ] the national postdoc fund form need to be filled QAQ;
 - [ ] literature review: (1)EnVar paper; (2) the AI for backgroud error convariance; (3) two science and nature paper;
-- [ ] get the make_obs package more readable and sent to Tao for code review;
-- [ ] Tornado fund done;
-- [ ] test the radar DA control run;
+- [x] get the make_obs package more readable and sent to Tao for code review;
+- [x] Tornado fund done;
+- [x] test the radar DA control run;
 - [ ] do some diagnose for the experiments.
 - [x] Have fun with family and enjoy the rest.
-- [ ] Finish reading 钢铁是怎样炼成的[x]。
+- [x] Finish reading 钢铁是怎样炼成的。
 
 Sep 30
 1. make the ob.radar file, with the non-precipitation checking and velocity dealias (half done);
