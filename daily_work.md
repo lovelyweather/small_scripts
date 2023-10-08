@@ -44,12 +44,15 @@ Oct 6
 1. BG的方案已提交；
 
 Oct. 7
-1. make the obs. especially finish the QC.
-
-(a)"best dealiasing method' and 'missing fourdd function':
+1. make the obs. especially finish the QC. document the process into slides. 
+- (a)"best dealiasing method' and 'missing fourdd function':
     https://groups.google.com/g/pyart-users/c/o8oAHtEjdbE
-(b) Dealias doppler velocities using the Region Based Algorithm (easiest)
+- (b) Dealias doppler velocities using the Region Based Algorithm (easiest)
     https://arm-doe.github.io/pyart/examples/correct/plot_dealias.html#sphx-glr-examples-correct-plot-dealias-py
-(c) Dealiased, Cleaned Velocity Field (add the velocity texture, more reasonable)
+- (c) Dealiased, Cleaned Velocity Field (add the velocity texture, more reasonable)
     https://github.com/openradar/ams-open-radar-2023/blob/main/notebooks/pyart/pyart-corrections.ipynb
-2. analyze the experiments.
+
+Oct. 8
+1. radar obs in wrf format done, hand into Tao for Dart DA.
+2. analyze the experiments. plot the refl. for the whole typhoon process.
+3. try to grid the radar obs. into wrf grid, which would be better for visualization for comparison. 
