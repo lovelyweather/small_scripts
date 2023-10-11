@@ -69,8 +69,9 @@ conda create --name <wrf-haiqiqn> --clone <wrfchem>
 - conda activate myenv
 - conda install packages
 
-安装wrf-python时
+安装wrf-python时:
 /share/home/zhaokun/anaconda3/envs/haiqin/bin/python -m pip install wrf-python-1.3.4.1.tar.gzv
+
 cartopy安装成功：pip install cartopy
 
 Oct. 10
