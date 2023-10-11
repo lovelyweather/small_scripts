@@ -80,6 +80,7 @@ Sun:
 EnKF目前完成第一个同化cyle，以及随后的1-h集合预报；提交试验已开始进行07时，并逐步向前预报；观测、边界条件、以及后续的脚本测试都通过了。但是集合成员计算是串行的，因此效率较低。优化了enkf和ens_wrf脚本，较少了文件的IO和存储。
 
 Oct. 11
--[ ] the batch operation for plotting reflectivity;
--[ ] write the 3D wind retrieval part at request;
--[ ] organize the reflectivity results in PPT.
+
+- [ ] the batch operation for plotting reflectivity;
+- [ ] write the 3D wind retrieval part at request;
+- [ ] organize the reflectivity results in PPT.
