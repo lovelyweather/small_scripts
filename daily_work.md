@@ -55,4 +55,31 @@ Oct. 7
 Oct. 8
 1. radar obs in wrf format done, hand into Tao for Dart DA.
 2. analyze the experiments. plot the refl. for the whole typhoon process.
-3. try to grid the radar obs. into wrf grid, which would be better for visualization for comparison. 
+3. try to grid the radar obs. into wrf grid, which would be better for visualization for comparison.
+4. 意外把jupyter环境装好了～
+
+输出雷达反射率的namelist：
+do_radar_ref = 1 (&physics)
+
+Oct. 9
+1. 设置自己的python环境：
+- conda create --name haiqin python=3.8
+复制：
+conda create --name <wrf-haiqiqn> --clone <wrfchem>
+- conda activate myenv
+- conda install packages
+
+安装wrf-python时
+/share/home/zhaokun/anaconda3/envs/haiqin/bin/python -m pip install wrf-python-1.3.4.1.tar.gzv
+cartopy安装成功：pip install cartopy
+
+Oct. 10
+1. the refl. plot, especially the xlabel and the map. (done)
+2. read the PyDDA paper, ready to write the manuscript.
+Sun:
+EnKF目前完成第一个同化cyle，以及随后的1-h集合预报；提交试验已开始进行07时，并逐步向前预报；观测、边界条件、以及后续的脚本测试都通过了。但是集合成员计算是串行的，因此效率较低。优化了enkf和ens_wrf脚本，较少了文件的IO和存储。
+
+Oct. 11
+-[ ] the batch operation for plotting reflectivity;
+-[ ] write the 3D wind retrieval part at request;
+-[ ] organize the reflectivity results in PPT.
